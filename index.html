@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Kevin | KBC Autonomous Banking</title>
+    <style>
+        /* === BASE STYLES & TYPOGRAPHY === */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        
+        :root {
+            --bg-color: #050505;
+            --text-main: #f5f5f7;
+            --text-muted: #86868b;
+            --accent-start: #00c6ff;
+            --accent-end: #0072ff;
+            --kbc-blue: #00AEEF;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        h1, h2, h3, p { margin: 0; }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* === SCROLL ANIMATION CLASSES === */
+        .hidden-left {
+            opacity: 0;
+            transform: translateX(-150px);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        
+        .hidden-right {
+            opacity: 0;
+            transform: translateX(150px);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .hidden-up {
+            opacity: 0;
+            transform: translateY(100px);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .show {
+            opacity: 1;
+            transform: translate(0);
+        }
+
+        /* === LAYOUT & SECTIONS === */
+        section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 10%;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .hero {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 6rem;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 3rem auto;
+            line-height: 1.5;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            animation: bounce 2s infinite;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-20px); }
+            60% { transform: translateY(-10px); }
+        }
+
+        .feature-split {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 5rem;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-split.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .feature-text {
+            flex: 1;
+            max-width: 500px;
+        }
+
+        .feature-text h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+        }
+
+        .feature-text p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .feature-visual {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* === CSS PHONE MOCKUP & UI === */
+        .phone-mockup {
+            width: 320px;
+            height: 650px;
+            background: #000;
+            border: 12px solid #1a1a1a;
+            border-radius: 50px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.6), inset 0 0 20px rgba(255,255,255,0.05);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            background-image: radial-gradient(circle at 50% 0%, #112233 0%, #000 70%);
+        }
+
+        .phone-notch {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 130px;
+            height: 30px;
+            background: #1a1a1a;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            z-index: 10;
+        }
+
+        .app-header {
+            padding: 50px 20px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        
+        .app-header h3 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .chat-container {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .msg-bubble {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 15px;
+            border-radius: 18px;
+            border-top-left-radius: 4px;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            backdrop-filter: blur(10px);
+            color: #ddd;
+        }
+
+        .msg-bubble strong {
+            color: #fff;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+        }
+
+        .btn-action {
+            background: linear-gradient(135deg, var(--accent-start) 0%, var(--accent-end) 100%);
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: 12px;
+            width: 100%;
+            font-weight: 600;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .btn-action:hover {
+            transform: scale(1.02);
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: 12px;
+            width: 100%;
+            font-weight: 600;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        /* Monthly Digest Card */
+        .digest-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            width: 100%;
+            max-width: 600px;
+            backdrop-filter: blur(20px);
+        }
+        
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .stat-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent-start);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .feature-split, .feature-split.reverse {
+                flex-direction: column;
+                text-align: center;
+                gap: 3rem;
+            }
+            .hero h1 { font-size: 4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1 class="hidden-up">Meet <span class="gradient-text">Kevin.</span></h1>
+        <p class="hidden-up" style="transition-delay: 0.2s;">
+            The autonomous financial engine embedded inside KBC Mobile. <br>
+            It doesn't just track your money. It grows it, automatically.
+        </p>
+        <div class="scroll-indicator">Scroll to explore</div>
+    </section>
+
+    <!-- FEATURE 1: AUTONOMY MANDATE (LEFT TEXT, RIGHT PHONE) -->
+    <section>
+        <div class="feature-split">
+            <div class="feature-text hidden-left">
+                <h2>Zero Friction.<br><span class="gradient-text">Total Control.</span></h2>
+                <p>Choose your level of financial delegation. Let Kevin act as a co-pilot that sends you opportunities, or give him the mandate to execute high-yield trades automatically based on your risk profile.</p>
+            </div>
+            <div class="feature-visual hidden-right">
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="app-header">
+                        <h3>KBC Mobile</h3>
+                    </div>
+                    <div class="chat-container">
+                        <div class="msg-bubble">
+                            <strong>Kevin</strong>
+                            Hi Thomas. You're currently missing out on an estimated €850/year in potential yield. How much authority would you like to give me?
+                        </div>
+                        <button class="btn-secondary" style="text-align: left; font-size: 0.85rem;">🔘 Level 1: Ask before acting</button>
+                        <button class="btn-secondary" style="text-align: left; font-size: 0.85rem;">🔘 Level 2: Guardrails & Rules</button>
+                        <button class="btn-action" style="text-align: left; font-size: 0.85rem;">🔘 Level 3: Full Autonomy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE 2: LIQUIDITY SWEEP (RIGHT TEXT, LEFT PHONE) -->
+    <section>
+        <div class="feature-split reverse">
+            <div class="feature-text hidden-right">
+                <h2>Idle Cash,<br><span class="gradient-text">Activated.</span></h2>
+                <p>Money sitting in checking accounts loses value to inflation. Kevin detects excess liquidity based on your spending habits and sweeps it into KBC Investment Funds, generating instant yield for you, and recurring revenue for the bank.</p>
+            </div>
+            <div class="feature-visual hidden-left">
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="app-header">
+                        <h3>Liquidity Sweep</h3>
+                    </div>
+                    <div class="chat-container">
+                        <div class="msg-bubble">
+                            <strong>Kevin</strong>
+                            Thomas, your checking account has €12,000 more than your usual monthly expenses require.
+                        </div>
+                        <div class="msg-bubble">
+                            <strong>Recommendation</strong>
+                            Sweep €10,000 into the KBC Dynamic Balanced Fund.<br><br>
+                            <span style="color:var(--accent-start)">Expected Yield: ~4.2% p.a.</span>
+                        </div>
+                        <button class="btn-action">Execute €10k Transfer</button>
+                        <button class="btn-secondary">Dismiss</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE 3: PRE-EMPTIVE CREDIT (LEFT TEXT, RIGHT PHONE) -->
+    <section>
+        <div class="feature-split">
+            <div class="feature-text hidden-left">
+                <h2>Credit Before<br><span class="gradient-text">You Ask.</span></h2>
+                <p>For SMEs, cash flow is everything. By analyzing incoming e-invoices and open banking data, Kevin identifies upcoming expenses and instantly offers a pre-approved bridge loan. No applications. No waiting.</p>
+            </div>
+            <div class="feature-visual hidden-right">
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="app-header">
+                        <h3>KBC Business</h3>
+                    </div>
+                    <div class="chat-container">
+                        <div class="msg-bubble">
+                            <strong>Kevin Alert</strong>
+                            I noticed a pending €35,000 invoice for heavy machinery. Paying from cash will drop liquidity below your comfort zone.
+                        </div>
+                        <div class="msg-bubble" style="border-left: 3px solid var(--accent-start);">
+                            <strong>Pre-Approved Equipment Loan</strong>
+                            €25,000 Bridge Facility at 4.5%.<br>
+                            Term: 48 Months.<br>
+                            Funds ready to deploy now.
+                        </div>
+                        <button class="btn-action">Sign & Fund Instantly</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE 4: MONTHLY DIGEST (CENTER) -->
+    <section style="flex-direction: column; text-align: center;">
+        <h2 class="hidden-up" style="font-size: 3.5rem; font-weight: 800; margin-bottom: 1rem;">Measurable <span class="gradient-text">Impact.</span></h2>
+        <p class="hidden-up" style="font-size: 1.25rem; color: var(--text-muted); margin-bottom: 3rem; max-width: 600px; transition-delay: 0.1s;">A gamified monthly summary proves Kevin’s value, building unbreakable client retention while driving zero-CAC cross-selling for KBC.</p>
+        
+        <div class="digest-card hidden-up" style="transition-delay: 0.2s;">
+            <div class="stat-row">
+                <span>Total Time Saved</span>
+                <span style="color:#fff;">3.5 Hours</span>
+            </div>
+            <div class="stat-row">
+                <span>Swept to KBC Funds</span>
+                <span style="color:#fff;">€4,000.00</span>
+            </div>
+            <div class="stat-row">
+                <span>Overdraft Fees Avoided</span>
+                <span style="color:#fff;">€35.00</span>
+            </div>
+            <div class="stat-row">
+                <span>Net Financial Optimization</span>
+                <span>+ € 155.00</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- JAVASCRIPT FOR SCROLL ANIMATIONS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Intersection Observer to handle the scroll-in animations
+            const observerOptions = {
+                root: null,
+                rootMargin: "0px",
+                threshold: 0.25 // Trigger when 25% of the element is visible
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                        // Optional: Stop observing once shown so it doesn't animate out
+                        // observer.unobserve(entry.target); 
+                    } else {
+                        // Remove this else block if you want the animation to happen only once
+                        entry.target.classList.remove('show');
+                    }
+                });
+            }, observerOptions);
+
+            // Select all elements with the hidden animation classes
+            const elementsToAnimate = document.querySelectorAll('.hidden-left, .hidden-right, .hidden-up');
+            
+            elementsToAnimate.forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
