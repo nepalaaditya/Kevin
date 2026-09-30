@@ -1,0 +1,67 @@
+{
+  "ahmed|2026-08|financial_stress|budget_coach": {
+    "message": "Hi Ahmed, we notice your food‑delivery spend jumped to €410 and shopping to €350 this week. Let us know if you’d like some budgeting tips to ease the pressure.",
+    "channel": "app_notification",
+    "why": "Because your recent food‑delivery and shopping expenses have increased significantly."
+  },
+  "ahmed|2026-09|financial_stress|payment_plan": {
+    "message": "Your recent food delivery spend rose to €500 (usual €320) and shopping to €430 (usual €280). We’re here to help you discuss a payment plan if you need support.",
+    "channel": "app_notification",
+    "why": "Because your food delivery and shopping expenses have increased sharply this month."
+  },
+  "lisa|2026-06|started_working|auto_savings": {
+    "message": "Congrats on your new salary of €2,138! Let’s automatically move a bit to savings each payday to grow your €3,240 balance.",
+    "channel": "app_notification",
+    "why": "Because your salary of €2,138 just appeared after starting your first job."
+  },
+  "lisa|2026-07|moved_house|home_insurance": {
+    "message": "Congrats on your new home! With rent €720 and utilities €71, a tenant home insurance can protect your €1389 furniture investment.",
+    "channel": "app_notification",
+    "why": "Because you recently started paying rent (€720), utilities (€71) and bought furniture (€1389) for your new home."
+  },
+  "tom_sara|2026-06|new_parent|child_savings": {
+    "message": "Congratulations on your new baby! You already have €813 saved for them, and with your €6,077 monthly income you can grow their savings even more.",
+    "channel": "email",
+    "why": "You have a new baby entry with a balance of €813."
+  },
+  "tom_sara|2026-08|house_hunting|mortgage_advice": {
+    "message": "With your monthly income of €6,208 and a balance of €40,383, a mortgage appointment can help you plan your new home. Let’s explore options that fit your €1,050 rent and €882 savings goals.",
+    "channel": "advisor_call",
+    "why": "Because you recently viewed our mortgage information page three times."
+  },
+  "tom_sara|2026-09|house_hunting|auto_savings": {
+    "message": "Hi Tom & Sara, with your monthly income of €6,305 and a balance of €43,824, our automatic savings transfer can help you set aside money each payday. You could easily grow your savings while you plan for your new home.",
+    "channel": "email",
+    "why": "You viewed the mortgage page twice in the app."
+  },
+  "v2|ahmed|2026-08|financial_stress|budget_coach": {
+    "message": "Hi Ahmed, we see you might be feeling some financial pressure and we’re ready to help you manage your budget. Our free Budget Coach can give you a clear view of upcoming cash flow.",
+    "channel": "app_notification",
+    "why": "Because you checked your balance frequently and your food delivery and shopping spending increased this month."
+  },
+  "v2|ahmed|2026-09|financial_stress|payment_plan": {
+    "message": "Feeling the pressure? We can explore a payment plan to help you manage this month’s higher expenses.",
+    "channel": "app_notification",
+    "why": "You checked your balance frequently and your food delivery and shopping spending rose this month."
+  },
+  "v2|lisa|2026-06|started_working|auto_savings": {
+    "message": "Congrats on your new job! You might like our automatic savings transfer to grow your money effortlessly.",
+    "channel": "app_notification",
+    "why": "You received a new salary of €2138 and your student job income stopped."
+  },
+  "v2|lisa|2026-07|moved_house|home_insurance": {
+    "message": "Settling into your new place? KBC can help protect it with tenant home insurance.",
+    "channel": "app_notification",
+    "why": "You recently started paying rent, utilities and buying furniture for your new home and looked at home insurance."
+  },
+  "v2|tom_sara|2026-06|new_parent|child_savings": {
+    "message": "Preparing for a little one? You might like a children's savings account to start building their future.",
+    "channel": "email",
+    "why": "You spent €813 on baby items this month."
+  },
+  "v2|tom_sara|2026-08|house_hunting|mortgage_advice": {
+    "message": "Thinking about a new home? Our advisors can help you explore mortgage options.",
+    "channel": "email",
+    "why": "You visited the mortgage page in the app."
+  }
+}

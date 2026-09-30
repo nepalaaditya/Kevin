@@ -1,0 +1,34 @@
+{
+  "lisa": {
+    "name": "Lisa",
+    "age": 23,
+    "products_held": ["current_account"],
+    "dismissed_offers": [],
+    "contact_preference": "app_notification",
+    "language": "en"
+  },
+  "tom_sara": {
+    "name": "Tom & Sara",
+    "age": 31,
+    "products_held": ["current_account", "savings_account", "home_insurance", "family_insurance"],
+    "dismissed_offers": [{"product": "starter_investing", "date": "2026-05-12"}],
+    "contact_preference": "email",
+    "language": "en"
+  },
+  "ahmed": {
+    "name": "Ahmed",
+    "age": 27,
+    "products_held": ["current_account"],
+    "dismissed_offers": [{"product": "credit_card", "date": "2026-05-03"}],
+    "contact_preference": "app_notification",
+    "language": "en"
+  },
+  "marc": {
+    "name": "Marc",
+    "age": 45,
+    "products_held": ["current_account", "home_insurance"],
+    "dismissed_offers": [],
+    "contact_preference": "email",
+    "language": "en"
+  }
+}

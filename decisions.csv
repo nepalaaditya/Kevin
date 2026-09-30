@@ -1,0 +1,8 @@
+customer_id,month,moment,label,score,decision,product,product_type,stressed,reason,evidence
+ahmed,2026-08,financial_stress,Under financial pressure,7,respond,budget_coach,help,True,customer under financial pressure: help only,"app: viewed_balance_5x_in_one_day (1x)  (+3) | food_delivery spiked (now EUR 410, usual EUR 240)  (+2) | shopping spiked (now EUR 350, usual EUR 220)  (+2)"
+ahmed,2026-09,financial_stress,Under financial pressure,7,respond,payment_plan,help,True,customer under financial pressure: help only,"app: viewed_balance_5x_in_one_day (1x)  (+3) | food_delivery spiked (now EUR 500, usual EUR 320)  (+2) | shopping spiked (now EUR 430, usual EUR 280)  (+2)"
+lisa,2026-06,started_working,Started first job,8,respond,auto_savings,sale,False,passed all checks,"salary appeared (now EUR 2138, usual EUR 0)  (+5) | student_job disappeared (now EUR 0, usual EUR 420)  (+3)"
+lisa,2026-07,moved_house,Moved into a new home,12,respond,home_insurance,sale,False,passed all checks,"rent appeared (now EUR 720, usual EUR 0)  (+5) | utilities appeared (now EUR 71, usual EUR 0)  (+3) | furniture appeared (now EUR 1389, usual EUR 0)  (+2) | app: viewed_home_insurance_page (1x)  (+2)"
+tom_sara,2026-06,new_parent,Became a parent,5,respond,child_savings,sale,False,passed all checks,"baby appeared (now EUR 813, usual EUR 0)  (+5)"
+tom_sara,2026-08,house_hunting,Looking to buy a home,5,respond,mortgage_advice,credit,False,passed all checks,app: viewed_mortgage_page (3x)  (+5)
+tom_sara,2026-09,house_hunting,Looking to buy a home,5,skip,,,False,mortgage_advice: already sent recently,app: viewed_mortgage_page (2x)  (+5)

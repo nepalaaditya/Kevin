@@ -1,0 +1,445 @@
+transaction_id,customer_id,persona,date,description,amount,true_category,story_tag,balance
+TX00001,ahmed,"Ahmed (27, spending pressure)",2026-02-01,HUUR KAMER Leuven,-690.0,rent,normal,2710.0
+TX00002,ahmed,"Ahmed (27, spending pressure)",2026-02-02,CAR LEASE MONTHLY 8322,-320.0,car,normal,2390.0
+TX00003,ahmed,"Ahmed (27, spending pressure)",2026-02-03,SPOTIFY P3960,-10.99,subscriptions,normal,2379.01
+TX00004,ahmed,"Ahmed (27, spending pressure)",2026-02-03,SPOTIFY P4165,-17.99,subscriptions,normal,2361.02
+TX00005,ahmed,"Ahmed (27, spending pressure)",2026-02-03,SPOTIFY P5457,-29.99,subscriptions,normal,2331.03
+TX00006,ahmed,"Ahmed (27, spending pressure)",2026-02-05,ALDI BE 2878 Leuven,-44.61,groceries,normal,2286.42
+TX00007,ahmed,"Ahmed (27, spending pressure)",2026-02-05,DELHAIZE LEUVEN #0793,-45.32,groceries,normal,2241.1
+TX00008,ahmed,"Ahmed (27, spending pressure)",2026-02-05,ORANGE BELGIUM DD 7712,-65.0,telecom,normal,2176.1
+TX00009,ahmed,"Ahmed (27, spending pressure)",2026-02-06,LIDL BELGIUM LEUVEN,-45.72,groceries,normal,2130.38
+TX00010,ahmed,"Ahmed (27, spending pressure)",2026-02-07,TAKEAWAY.COM 8517,-24.41,food_delivery,normal,2105.97
+TX00011,ahmed,"Ahmed (27, spending pressure)",2026-02-10,DELIVEROO BELGIUM,-28.07,food_delivery,normal,2077.9
+TX00012,ahmed,"Ahmed (27, spending pressure)",2026-02-14,ALDI BE 8907 Leuven,-37.47,groceries,normal,2040.43
+TX00013,ahmed,"Ahmed (27, spending pressure)",2026-02-14,PIZZA HUT LEUVEN 4853,-120.0,restaurants,normal,1920.43
+TX00014,ahmed,"Ahmed (27, spending pressure)",2026-02-14,UBER *EATS LEUVEN,-27.52,food_delivery,normal,1892.91
+TX00015,ahmed,"Ahmed (27, spending pressure)",2026-02-20,BOL.COM 7282,-80.0,shopping,normal,1812.91
+TX00016,ahmed,"Ahmed (27, spending pressure)",2026-02-25,LIDL BELGIUM Leuven,-44.23,groceries,normal,1768.68
+TX00017,ahmed,"Ahmed (27, spending pressure)",2026-02-25,LOON RETAIL BV 5790,1950.0,salary,normal,3718.68
+TX00018,ahmed,"Ahmed (27, spending pressure)",2026-03-01,SEPA HUUR KAMER,-690.0,rent,normal,3028.68
+TX00019,ahmed,"Ahmed (27, spending pressure)",2026-03-02,SEPA AUTOLEASE 8416,-320.0,car,normal,2708.68
+TX00020,ahmed,"Ahmed (27, spending pressure)",2026-03-03,BASIC-FIT BE 6011,-17.99,subscriptions,normal,2690.69
+TX00021,ahmed,"Ahmed (27, spending pressure)",2026-03-03,DISNEYPLUS 9923,-10.99,subscriptions,normal,2679.7
+TX00022,ahmed,"Ahmed (27, spending pressure)",2026-03-03,NETFLIX.COM 6105,-29.99,subscriptions,normal,2649.71
+TX00023,ahmed,"Ahmed (27, spending pressure)",2026-03-05,ORANGE BELGIUM DD 2349,-65.0,telecom,normal,2584.71
+TX00024,ahmed,"Ahmed (27, spending pressure)",2026-03-06,CARREFOUR MARKET LEUVEN 5160,-40.99,groceries,normal,2543.72
+TX00025,ahmed,"Ahmed (27, spending pressure)",2026-03-06,LIDL BELGIUM LEUVEN,-44.21,groceries,normal,2499.51
+TX00026,ahmed,"Ahmed (27, spending pressure)",2026-03-06,UBER *EATS Leuven,-23.42,food_delivery,normal,2476.09
+TX00027,ahmed,"Ahmed (27, spending pressure)",2026-03-11,COLRUYT LEUVEN 8492,-35.74,groceries,normal,2440.35
+TX00028,ahmed,"Ahmed (27, spending pressure)",2026-03-14,ALDI BE 4767 Leuven,-45.83,groceries,normal,2394.52
+TX00029,ahmed,"Ahmed (27, spending pressure)",2026-03-19,BAR CENTRAAL Leuven,-150.0,restaurants,normal,2244.52
+TX00030,ahmed,"Ahmed (27, spending pressure)",2026-03-19,UBER *EATS LEUVEN,-26.59,food_delivery,normal,2217.93
+TX00031,ahmed,"Ahmed (27, spending pressure)",2026-03-19,ZARA BELGIUM Leuven,-90.0,shopping,normal,2127.93
+TX00032,ahmed,"Ahmed (27, spending pressure)",2026-03-21,COLRUYT LEUVEN 7321,-32.29,groceries,normal,2095.64
+TX00033,ahmed,"Ahmed (27, spending pressure)",2026-03-23,ALDI BE 3289 Leuven,-30.45,groceries,normal,2065.19
+TX00034,ahmed,"Ahmed (27, spending pressure)",2026-03-25,SALARY Retail BV,1950.0,salary,normal,4015.19
+TX00035,ahmed,"Ahmed (27, spending pressure)",2026-03-27,DELIVEROO BELGIUM,-24.23,food_delivery,normal,3990.96
+TX00036,ahmed,"Ahmed (27, spending pressure)",2026-03-27,TAKEAWAY.COM 3302,-25.76,food_delivery,normal,3965.2
+TX00037,ahmed,"Ahmed (27, spending pressure)",2026-04-01,SEPA HUUR KAMER,-690.0,rent,normal,3275.2
+TX00038,ahmed,"Ahmed (27, spending pressure)",2026-04-02,CAR LEASE MONTHLY 2044,-320.0,car,normal,2955.2
+TX00039,ahmed,"Ahmed (27, spending pressure)",2026-04-03,DISNEYPLUS 8750,-29.99,subscriptions,normal,2925.21
+TX00040,ahmed,"Ahmed (27, spending pressure)",2026-04-03,NETFLIX.COM 4663,-17.99,subscriptions,normal,2907.22
+TX00041,ahmed,"Ahmed (27, spending pressure)",2026-04-03,SPOTIFY P9034,-10.99,subscriptions,normal,2896.23
+TX00042,ahmed,"Ahmed (27, spending pressure)",2026-04-03,TAKEAWAY.COM 6860,-28.92,food_delivery,normal,2867.31
+TX00043,ahmed,"Ahmed (27, spending pressure)",2026-04-04,COLRUYT LEUVEN 9459,-33.29,groceries,normal,2834.02
+TX00044,ahmed,"Ahmed (27, spending pressure)",2026-04-05,ORANGE BELGIUM DD 5296,-65.0,telecom,normal,2769.02
+TX00045,ahmed,"Ahmed (27, spending pressure)",2026-04-06,TAKEAWAY.COM 3970,-23.45,food_delivery,normal,2745.57
+TX00046,ahmed,"Ahmed (27, spending pressure)",2026-04-10,CARREFOUR MARKET LEUVEN 8169,-45.78,groceries,normal,2699.79
+TX00047,ahmed,"Ahmed (27, spending pressure)",2026-04-15,CAFE DEN OUDEN Leuven,-180.0,restaurants,normal,2519.79
+TX00048,ahmed,"Ahmed (27, spending pressure)",2026-04-16,DELIVEROO BELGIUM,-23.26,food_delivery,normal,2496.53
+TX00049,ahmed,"Ahmed (27, spending pressure)",2026-04-17,TAKEAWAY.COM 5131,-32.58,food_delivery,normal,2463.95
+TX00050,ahmed,"Ahmed (27, spending pressure)",2026-04-19,H&M Leuven 8181,-120.0,shopping,normal,2343.95
+TX00051,ahmed,"Ahmed (27, spending pressure)",2026-04-20,DELHAIZE Leuven #2814,-41.17,groceries,normal,2302.78
+TX00052,ahmed,"Ahmed (27, spending pressure)",2026-04-21,ALDI BE 4022 Leuven,-44.09,groceries,normal,2258.69
+TX00053,ahmed,"Ahmed (27, spending pressure)",2026-04-24,TAKEAWAY.COM 6542,-26.8,food_delivery,normal,2231.89
+TX00054,ahmed,"Ahmed (27, spending pressure)",2026-04-25,SALARY Retail BV,1950.0,salary,normal,4181.89
+TX00055,ahmed,"Ahmed (27, spending pressure)",2026-04-27,CARREFOUR MARKET LEUVEN 0684,-44.5,groceries,normal,4137.39
+TX00056,ahmed,"Ahmed (27, spending pressure)",2026-05-01,SEPA HUUR KAMER,-690.0,rent,normal,3447.39
+TX00057,ahmed,"Ahmed (27, spending pressure)",2026-05-02,CAR LEASE MONTHLY 9799,-320.0,car,normal,3127.39
+TX00058,ahmed,"Ahmed (27, spending pressure)",2026-05-03,BASIC-FIT BE 9353,-10.99,subscriptions,normal,3116.4
+TX00059,ahmed,"Ahmed (27, spending pressure)",2026-05-03,NETFLIX.COM 6339,-29.99,subscriptions,normal,3086.41
+TX00060,ahmed,"Ahmed (27, spending pressure)",2026-05-03,SPOTIFY P6002,-17.99,subscriptions,normal,3068.42
+TX00061,ahmed,"Ahmed (27, spending pressure)",2026-05-05,ORANGE BELGIUM DD 0143,-65.0,telecom,normal,3003.42
+TX00062,ahmed,"Ahmed (27, spending pressure)",2026-05-06,UBER *EATS LEUVEN,-34.31,food_delivery,spending_pressure,2969.11
+TX00063,ahmed,"Ahmed (27, spending pressure)",2026-05-07,LIDL BELGIUM LEUVEN,-46.78,groceries,normal,2922.33
+TX00064,ahmed,"Ahmed (27, spending pressure)",2026-05-08,ALDI BE 2450 Leuven,-40.13,groceries,normal,2882.2
+TX00065,ahmed,"Ahmed (27, spending pressure)",2026-05-08,DELHAIZE Leuven #0669,-28.91,groceries,normal,2853.29
+TX00066,ahmed,"Ahmed (27, spending pressure)",2026-05-08,DELIVEROO BELGIUM,-33.93,food_delivery,spending_pressure,2819.36
+TX00067,ahmed,"Ahmed (27, spending pressure)",2026-05-12,CAFE DEN OUDEN Leuven,-220.0,restaurants,spending_pressure,2599.36
+TX00068,ahmed,"Ahmed (27, spending pressure)",2026-05-18,CARREFOUR MARKET LEUVEN 1956,-30.57,groceries,normal,2568.79
+TX00069,ahmed,"Ahmed (27, spending pressure)",2026-05-18,UBER *EATS Leuven,-25.86,food_delivery,spending_pressure,2542.93
+TX00070,ahmed,"Ahmed (27, spending pressure)",2026-05-20,DELHAIZE LEUVEN #2672,-35.86,groceries,normal,2507.07
+TX00071,ahmed,"Ahmed (27, spending pressure)",2026-05-20,DELIVEROO BELGIUM,-27.42,food_delivery,spending_pressure,2479.65
+TX00072,ahmed,"Ahmed (27, spending pressure)",2026-05-21,TAKEAWAY.COM 9487,-23.02,food_delivery,spending_pressure,2456.63
+TX00073,ahmed,"Ahmed (27, spending pressure)",2026-05-22,BOL.COM 8744,-170.0,shopping,spending_pressure,2286.63
+TX00074,ahmed,"Ahmed (27, spending pressure)",2026-05-23,ALDI BE 8361 Leuven,-38.65,groceries,normal,2247.98
+TX00075,ahmed,"Ahmed (27, spending pressure)",2026-05-24,DELIVEROO BELGIUM,-30.46,food_delivery,spending_pressure,2217.52
+TX00076,ahmed,"Ahmed (27, spending pressure)",2026-05-25,SALARY RETAIL BV,1950.0,salary,normal,4167.52
+TX00077,ahmed,"Ahmed (27, spending pressure)",2026-05-26,CARREFOUR MARKET LEUVEN 6045,-34.62,groceries,normal,4132.9
+TX00078,ahmed,"Ahmed (27, spending pressure)",2026-06-01,SEPA HUUR KAMER,-690.0,rent,normal,3442.9
+TX00079,ahmed,"Ahmed (27, spending pressure)",2026-06-02,CAR LEASE MONTHLY 4886,-320.0,car,normal,3122.9
+TX00080,ahmed,"Ahmed (27, spending pressure)",2026-06-03,BASIC-FIT BE 2409,-29.99,subscriptions,normal,3092.91
+TX00081,ahmed,"Ahmed (27, spending pressure)",2026-06-03,DELIVEROO BELGIUM,-36.26,food_delivery,spending_pressure,3056.65
+TX00082,ahmed,"Ahmed (27, spending pressure)",2026-06-03,DISNEYPLUS 4490,-17.99,subscriptions,normal,3038.66
+TX00083,ahmed,"Ahmed (27, spending pressure)",2026-06-03,DISNEYPLUS 6230,-10.99,subscriptions,normal,3027.67
+TX00084,ahmed,"Ahmed (27, spending pressure)",2026-06-05,ALDI BE 7257 Leuven,-41.12,groceries,normal,2986.55
+TX00085,ahmed,"Ahmed (27, spending pressure)",2026-06-05,CARREFOUR MARKET LEUVEN 1651,-36.27,groceries,normal,2950.28
+TX00086,ahmed,"Ahmed (27, spending pressure)",2026-06-05,PROXIMUS NV/SA 8021,-65.0,telecom,normal,2885.28
+TX00087,ahmed,"Ahmed (27, spending pressure)",2026-06-06,UBER *EATS Leuven,-26.86,food_delivery,spending_pressure,2858.42
+TX00088,ahmed,"Ahmed (27, spending pressure)",2026-06-09,LIDL BELGIUM Leuven,-37.55,groceries,normal,2820.87
+TX00089,ahmed,"Ahmed (27, spending pressure)",2026-06-11,TAKEAWAY.COM 8102,-40.69,food_delivery,spending_pressure,2780.18
+TX00090,ahmed,"Ahmed (27, spending pressure)",2026-06-12,DELIVEROO BELGIUM,-35.05,food_delivery,spending_pressure,2745.13
+TX00091,ahmed,"Ahmed (27, spending pressure)",2026-06-12,PIZZA HUT Leuven 3174,-270.0,restaurants,spending_pressure,2475.13
+TX00092,ahmed,"Ahmed (27, spending pressure)",2026-06-15,DELIVEROO BELGIUM,-41.64,food_delivery,spending_pressure,2433.49
+TX00093,ahmed,"Ahmed (27, spending pressure)",2026-06-19,BOL.COM 1431,-220.0,shopping,spending_pressure,2213.49
+TX00094,ahmed,"Ahmed (27, spending pressure)",2026-06-19,UBER *EATS Leuven,-28.72,food_delivery,spending_pressure,2184.77
+TX00095,ahmed,"Ahmed (27, spending pressure)",2026-06-25,SALARY Retail BV,1950.0,salary,normal,4134.77
+TX00096,ahmed,"Ahmed (27, spending pressure)",2026-06-26,ALDI BE 9624 LEUVEN,-32.79,groceries,normal,4101.98
+TX00097,ahmed,"Ahmed (27, spending pressure)",2026-06-26,LIDL BELGIUM LEUVEN,-47.29,groceries,normal,4054.69
+TX00098,ahmed,"Ahmed (27, spending pressure)",2026-06-27,LIDL BELGIUM LEUVEN,-46.66,groceries,normal,4008.03
+TX00099,ahmed,"Ahmed (27, spending pressure)",2026-06-27,TAKEAWAY.COM 4752,-30.78,food_delivery,spending_pressure,3977.25
+TX00100,ahmed,"Ahmed (27, spending pressure)",2026-07-01,RENT KAMER LEUVEN,-690.0,rent,normal,3287.25
+TX00101,ahmed,"Ahmed (27, spending pressure)",2026-07-02,CAR LEASE MONTHLY 5410,-320.0,car,normal,2967.25
+TX00102,ahmed,"Ahmed (27, spending pressure)",2026-07-03,BASIC-FIT BE 8243,-10.99,subscriptions,normal,2956.26
+TX00103,ahmed,"Ahmed (27, spending pressure)",2026-07-03,DELIVEROO BELGIUM,-39.61,food_delivery,spending_pressure,2916.65
+TX00104,ahmed,"Ahmed (27, spending pressure)",2026-07-03,DISNEYPLUS 1946,-17.99,subscriptions,normal,2898.66
+TX00105,ahmed,"Ahmed (27, spending pressure)",2026-07-03,DISNEYPLUS 4843,-29.99,subscriptions,normal,2868.67
+TX00106,ahmed,"Ahmed (27, spending pressure)",2026-07-04,DELIVEROO BELGIUM,-48.84,food_delivery,spending_pressure,2819.83
+TX00107,ahmed,"Ahmed (27, spending pressure)",2026-07-05,PROXIMUS NV/SA 4295,-65.0,telecom,normal,2754.83
+TX00108,ahmed,"Ahmed (27, spending pressure)",2026-07-06,CARREFOUR MARKET LEUVEN 1289,-46.34,groceries,normal,2708.49
+TX00109,ahmed,"Ahmed (27, spending pressure)",2026-07-06,UBER *EATS Leuven,-42.02,food_delivery,spending_pressure,2666.47
+TX00110,ahmed,"Ahmed (27, spending pressure)",2026-07-07,COLRUYT Leuven 3322,-39.45,groceries,normal,2627.02
+TX00111,ahmed,"Ahmed (27, spending pressure)",2026-07-08,DELHAIZE LEUVEN #1914,-41.61,groceries,normal,2585.41
+TX00112,ahmed,"Ahmed (27, spending pressure)",2026-07-13,TAKEAWAY.COM 6194,-33.23,food_delivery,spending_pressure,2552.18
+TX00113,ahmed,"Ahmed (27, spending pressure)",2026-07-14,DELIVEROO BELGIUM,-39.0,food_delivery,spending_pressure,2513.18
+TX00114,ahmed,"Ahmed (27, spending pressure)",2026-07-14,TAKEAWAY.COM 9485,-40.49,food_delivery,spending_pressure,2472.69
+TX00115,ahmed,"Ahmed (27, spending pressure)",2026-07-15,DELIVEROO BELGIUM,-31.67,food_delivery,spending_pressure,2441.02
+TX00116,ahmed,"Ahmed (27, spending pressure)",2026-07-18,CAFE DEN OUDEN Leuven,-330.0,restaurants,spending_pressure,2111.02
+TX00117,ahmed,"Ahmed (27, spending pressure)",2026-07-18,ZARA BELGIUM Leuven,-280.0,shopping,spending_pressure,1831.02
+TX00118,ahmed,"Ahmed (27, spending pressure)",2026-07-19,TAKEAWAY.COM 0366,-45.14,food_delivery,spending_pressure,1785.88
+TX00119,ahmed,"Ahmed (27, spending pressure)",2026-07-23,ALDI BE 7724 LEUVEN,-43.15,groceries,normal,1742.73
+TX00120,ahmed,"Ahmed (27, spending pressure)",2026-07-23,DELHAIZE LEUVEN #2519,-37.1,groceries,normal,1705.63
+TX00121,ahmed,"Ahmed (27, spending pressure)",2026-07-25,DELHAIZE Leuven #9771,-45.46,groceries,normal,1660.17
+TX00122,ahmed,"Ahmed (27, spending pressure)",2026-07-25,SALARY RETAIL BV,1950.0,salary,normal,3610.17
+TX00123,ahmed,"Ahmed (27, spending pressure)",2026-08-01,RENT KAMER LEUVEN,-690.0,rent,normal,2920.17
+TX00124,ahmed,"Ahmed (27, spending pressure)",2026-08-02,SEPA AUTOLEASE 0266,-320.0,car,normal,2600.17
+TX00125,ahmed,"Ahmed (27, spending pressure)",2026-08-03,BASIC-FIT BE 0807,-17.99,subscriptions,normal,2582.18
+TX00126,ahmed,"Ahmed (27, spending pressure)",2026-08-03,NETFLIX.COM 2305,-29.99,subscriptions,normal,2552.19
+TX00127,ahmed,"Ahmed (27, spending pressure)",2026-08-03,NETFLIX.COM 3849,-10.99,subscriptions,normal,2541.2
+TX00128,ahmed,"Ahmed (27, spending pressure)",2026-08-05,CARREFOUR MARKET LEUVEN 8693,-30.68,groceries,normal,2510.52
+TX00129,ahmed,"Ahmed (27, spending pressure)",2026-08-05,TELENET NV DOMICILIERING,-65.0,telecom,normal,2445.52
+TX00130,ahmed,"Ahmed (27, spending pressure)",2026-08-08,TAKEAWAY.COM 3480,-49.9,food_delivery,spending_pressure,2395.62
+TX00131,ahmed,"Ahmed (27, spending pressure)",2026-08-08,TAKEAWAY.COM 3635,-41.11,food_delivery,spending_pressure,2354.51
+TX00132,ahmed,"Ahmed (27, spending pressure)",2026-08-08,UBER *EATS LEUVEN,-56.3,food_delivery,spending_pressure,2298.21
+TX00133,ahmed,"Ahmed (27, spending pressure)",2026-08-09,UBER *EATS Leuven,-54.56,food_delivery,spending_pressure,2243.65
+TX00134,ahmed,"Ahmed (27, spending pressure)",2026-08-13,ALDI BE 2879 LEUVEN,-40.52,groceries,normal,2203.13
+TX00135,ahmed,"Ahmed (27, spending pressure)",2026-08-13,DELHAIZE Leuven #5234,-39.55,groceries,normal,2163.58
+TX00136,ahmed,"Ahmed (27, spending pressure)",2026-08-14,LIDL BELGIUM LEUVEN,-43.09,groceries,normal,2120.49
+TX00137,ahmed,"Ahmed (27, spending pressure)",2026-08-14,PAYCONIQ*FRITUUR LEUVEN,-390.0,restaurants,spending_pressure,1730.49
+TX00138,ahmed,"Ahmed (27, spending pressure)",2026-08-16,DELIVEROO BELGIUM,-39.3,food_delivery,spending_pressure,1691.19
+TX00139,ahmed,"Ahmed (27, spending pressure)",2026-08-17,CARREFOUR MARKET Leuven 6254,-43.72,groceries,normal,1647.47
+TX00140,ahmed,"Ahmed (27, spending pressure)",2026-08-19,DELHAIZE Leuven #2375,-44.12,groceries,normal,1603.35
+TX00141,ahmed,"Ahmed (27, spending pressure)",2026-08-19,TAKEAWAY.COM 8753,-37.02,food_delivery,spending_pressure,1566.33
+TX00142,ahmed,"Ahmed (27, spending pressure)",2026-08-22,TAKEAWAY.COM 8157,-51.71,food_delivery,spending_pressure,1514.62
+TX00143,ahmed,"Ahmed (27, spending pressure)",2026-08-23,BOL.COM 3778,-350.0,shopping,spending_pressure,1164.62
+TX00144,ahmed,"Ahmed (27, spending pressure)",2026-08-23,UBER *EATS Leuven,-40.51,food_delivery,spending_pressure,1124.11
+TX00145,ahmed,"Ahmed (27, spending pressure)",2026-08-25,ALDI BE 8550 LEUVEN,-32.42,groceries,normal,1091.69
+TX00146,ahmed,"Ahmed (27, spending pressure)",2026-08-25,OVERSCHRIJVING WEDDE RETAIL BV,1950.0,salary,normal,3041.69
+TX00147,ahmed,"Ahmed (27, spending pressure)",2026-08-27,UBER *EATS Leuven,-39.59,food_delivery,spending_pressure,3002.1
+TX00148,ahmed,"Ahmed (27, spending pressure)",2026-09-01,SEPA HUUR KAMER,-690.0,rent,normal,2312.1
+TX00149,ahmed,"Ahmed (27, spending pressure)",2026-09-02,CAR LEASE MONTHLY 5780,-320.0,car,normal,1992.1
+TX00150,ahmed,"Ahmed (27, spending pressure)",2026-09-03,DELIVEROO BELGIUM,-54.58,food_delivery,spending_pressure,1937.52
+TX00151,ahmed,"Ahmed (27, spending pressure)",2026-09-03,SPOTIFY P1227,-17.99,subscriptions,normal,1919.53
+TX00152,ahmed,"Ahmed (27, spending pressure)",2026-09-03,SPOTIFY P3801,-10.99,subscriptions,normal,1908.54
+TX00153,ahmed,"Ahmed (27, spending pressure)",2026-09-03,SPOTIFY P8295,-29.99,subscriptions,normal,1878.55
+TX00154,ahmed,"Ahmed (27, spending pressure)",2026-09-04,COLRUYT Leuven 0284,-38.59,groceries,normal,1839.96
+TX00155,ahmed,"Ahmed (27, spending pressure)",2026-09-04,TAKEAWAY.COM 5437,-57.68,food_delivery,spending_pressure,1782.28
+TX00156,ahmed,"Ahmed (27, spending pressure)",2026-09-04,TAKEAWAY.COM 6385,-46.51,food_delivery,spending_pressure,1735.77
+TX00157,ahmed,"Ahmed (27, spending pressure)",2026-09-04,UBER *EATS Leuven,-53.27,food_delivery,spending_pressure,1682.5
+TX00158,ahmed,"Ahmed (27, spending pressure)",2026-09-05,TELENET NV DOMICILIERING,-65.0,telecom,normal,1617.5
+TX00159,ahmed,"Ahmed (27, spending pressure)",2026-09-08,UBER *EATS LEUVEN,-47.21,food_delivery,spending_pressure,1570.29
+TX00160,ahmed,"Ahmed (27, spending pressure)",2026-09-08,UBER *EATS Leuven,-61.74,food_delivery,spending_pressure,1508.55
+TX00161,ahmed,"Ahmed (27, spending pressure)",2026-09-09,COLRUYT Leuven 3958,-31.84,groceries,normal,1476.71
+TX00162,ahmed,"Ahmed (27, spending pressure)",2026-09-12,CARREFOUR MARKET Leuven 7064,-44.12,groceries,normal,1432.59
+TX00163,ahmed,"Ahmed (27, spending pressure)",2026-09-15,COLRUYT Leuven 7926,-41.19,groceries,normal,1391.4
+TX00164,ahmed,"Ahmed (27, spending pressure)",2026-09-16,LIDL BELGIUM Leuven,-34.0,groceries,normal,1357.4
+TX00165,ahmed,"Ahmed (27, spending pressure)",2026-09-18,PIZZA HUT LEUVEN 7391,-460.0,restaurants,spending_pressure,897.4
+TX00166,ahmed,"Ahmed (27, spending pressure)",2026-09-20,ALDI BE 6512 Leuven,-29.58,groceries,normal,867.82
+TX00167,ahmed,"Ahmed (27, spending pressure)",2026-09-20,DELIVEROO BELGIUM,-39.16,food_delivery,spending_pressure,828.66
+TX00168,ahmed,"Ahmed (27, spending pressure)",2026-09-21,H&M LEUVEN 7085,-430.0,shopping,spending_pressure,398.66
+TX00169,ahmed,"Ahmed (27, spending pressure)",2026-09-23,DELIVEROO BELGIUM,-37.95,food_delivery,spending_pressure,360.71
+TX00170,ahmed,"Ahmed (27, spending pressure)",2026-09-23,UBER *EATS LEUVEN,-48.96,food_delivery,spending_pressure,311.75
+TX00171,ahmed,"Ahmed (27, spending pressure)",2026-09-25,SALARY RETAIL BV,1950.0,salary,normal,2261.75
+TX00172,ahmed,"Ahmed (27, spending pressure)",2026-09-27,UBER *EATS Leuven,-52.94,food_delivery,spending_pressure,2208.81
+TX00173,lisa,"Lisa (23, starter)",2026-02-03,DELHAIZE Kortrijk #3824,-56.13,groceries,normal,1193.87
+TX00174,lisa,"Lisa (23, starter)",2026-02-03,NMBS/SNCB APP 5165,-6.4,transport,normal,1187.47
+TX00175,lisa,"Lisa (23, starter)",2026-02-03,SPOTIFY P1545,-11.99,subscriptions,normal,1175.48
+TX00176,lisa,"Lisa (23, starter)",2026-02-06,TELENET NV DOMICILIERING,-32.59,telecom,normal,1142.89
+TX00177,lisa,"Lisa (23, starter)",2026-02-07,LIDL BELGIUM KORTRIJK,-22.5,groceries,normal,1120.39
+TX00178,lisa,"Lisa (23, starter)",2026-02-09,CAFE DEN OUDEN KORTRIJK,-14.59,restaurants,normal,1105.8
+TX00179,lisa,"Lisa (23, starter)",2026-02-11,CARREFOUR MARKET Kortrijk 3160,-49.0,groceries,normal,1056.8
+TX00180,lisa,"Lisa (23, starter)",2026-02-14,ALDI BE 2674 Kortrijk,-34.29,groceries,normal,1022.51
+TX00181,lisa,"Lisa (23, starter)",2026-02-14,COLRUYT KORTRIJK 4343,-53.51,groceries,normal,969.0
+TX00182,lisa,"Lisa (23, starter)",2026-02-16,DE LIJN MOBIB 2350,-7.24,transport,normal,961.76
+TX00183,lisa,"Lisa (23, starter)",2026-02-19,LIDL BELGIUM KORTRIJK,-51.39,groceries,normal,910.37
+TX00184,lisa,"Lisa (23, starter)",2026-02-23,LOON STUDENT COLRUYT,483.11,student_job,normal,1393.48
+TX00185,lisa,"Lisa (23, starter)",2026-02-25,LIDL BELGIUM Kortrijk,-21.47,groceries,normal,1372.01
+TX00186,lisa,"Lisa (23, starter)",2026-02-25,NMBS/SNCB APP 5178,-9.42,transport,normal,1362.59
+TX00187,lisa,"Lisa (23, starter)",2026-02-25,PIZZA HUT Kortrijk 1179,-26.27,restaurants,normal,1336.32
+TX00188,lisa,"Lisa (23, starter)",2026-03-01,NMBS/SNCB APP 1114,-17.49,transport,normal,1318.83
+TX00189,lisa,"Lisa (23, starter)",2026-03-03,NETFLIX.COM 8095,-11.99,subscriptions,normal,1306.84
+TX00190,lisa,"Lisa (23, starter)",2026-03-05,TELENET NV DOMICILIERING,-33.5,telecom,normal,1273.34
+TX00191,lisa,"Lisa (23, starter)",2026-03-08,NMBS/SNCB APP 3780,-12.42,transport,normal,1260.92
+TX00192,lisa,"Lisa (23, starter)",2026-03-11,PAYCONIQ*FRITUUR KORTRIJK,-37.34,restaurants,normal,1223.58
+TX00193,lisa,"Lisa (23, starter)",2026-03-14,BAR CENTRAAL KORTRIJK,-15.18,restaurants,normal,1208.4
+TX00194,lisa,"Lisa (23, starter)",2026-03-19,COLRUYT Kortrijk 8807,-51.04,groceries,normal,1157.36
+TX00195,lisa,"Lisa (23, starter)",2026-03-20,BAR CENTRAAL Kortrijk,-29.39,restaurants,normal,1127.97
+TX00196,lisa,"Lisa (23, starter)",2026-03-21,CAFE DEN OUDEN KORTRIJK,-12.95,restaurants,normal,1115.02
+TX00197,lisa,"Lisa (23, starter)",2026-03-21,COLRUYT KORTRIJK 7678,-41.28,groceries,normal,1073.74
+TX00198,lisa,"Lisa (23, starter)",2026-03-22,ALDI BE 3268 Kortrijk,-24.72,groceries,normal,1049.02
+TX00199,lisa,"Lisa (23, starter)",2026-03-22,SHELL KORTRIJK 7407,-4.94,transport,normal,1044.08
+TX00200,lisa,"Lisa (23, starter)",2026-03-24,STUDENTENJOB COLRUYT 9570,435.92,student_job,normal,1480.0
+TX00201,lisa,"Lisa (23, starter)",2026-03-25,ALDI BE 8327 Kortrijk,-58.16,groceries,normal,1421.84
+TX00202,lisa,"Lisa (23, starter)",2026-03-26,ALDI BE 7443 KORTRIJK,-18.14,groceries,normal,1403.7
+TX00203,lisa,"Lisa (23, starter)",2026-03-26,DELHAIZE Kortrijk #8699,-58.41,groceries,normal,1345.29
+TX00204,lisa,"Lisa (23, starter)",2026-04-02,LIDL BELGIUM KORTRIJK,-30.55,groceries,normal,1314.74
+TX00205,lisa,"Lisa (23, starter)",2026-04-02,SHELL KORTRIJK 9270,-11.36,transport,normal,1303.38
+TX00206,lisa,"Lisa (23, starter)",2026-04-03,NETFLIX.COM 9450,-11.99,subscriptions,normal,1291.39
+TX00207,lisa,"Lisa (23, starter)",2026-04-04,LIDL BELGIUM Kortrijk,-20.23,groceries,normal,1271.16
+TX00208,lisa,"Lisa (23, starter)",2026-04-06,CAFE DEN OUDEN KORTRIJK,-15.39,restaurants,normal,1255.77
+TX00209,lisa,"Lisa (23, starter)",2026-04-08,CARREFOUR MARKET KORTRIJK 4573,-38.36,groceries,normal,1217.41
+TX00210,lisa,"Lisa (23, starter)",2026-04-08,TELENET NV DOMICILIERING,-25.13,telecom,normal,1192.28
+TX00211,lisa,"Lisa (23, starter)",2026-04-09,NMBS/SNCB APP 4361,-9.33,transport,normal,1182.95
+TX00212,lisa,"Lisa (23, starter)",2026-04-15,ALDI BE 0897 KORTRIJK,-47.63,groceries,normal,1135.32
+TX00213,lisa,"Lisa (23, starter)",2026-04-17,LIDL BELGIUM KORTRIJK,-25.24,groceries,normal,1110.08
+TX00214,lisa,"Lisa (23, starter)",2026-04-19,COLRUYT Kortrijk 3882,-25.32,groceries,normal,1084.76
+TX00215,lisa,"Lisa (23, starter)",2026-04-20,CAFE DEN OUDEN KORTRIJK,-10.06,restaurants,normal,1074.7
+TX00216,lisa,"Lisa (23, starter)",2026-04-20,SHELL Kortrijk 3502,-11.09,transport,normal,1063.61
+TX00217,lisa,"Lisa (23, starter)",2026-04-21,PAYCONIQ*FRITUUR Kortrijk,-22.3,restaurants,normal,1041.31
+TX00218,lisa,"Lisa (23, starter)",2026-04-22,COLRUYT KORTRIJK 1800,-28.94,groceries,normal,1012.37
+TX00219,lisa,"Lisa (23, starter)",2026-04-22,SHELL KORTRIJK 1198,-3.15,transport,normal,1009.22
+TX00220,lisa,"Lisa (23, starter)",2026-04-25,LOON STUDENT COLRUYT,409.99,student_job,normal,1419.21
+TX00221,lisa,"Lisa (23, starter)",2026-04-27,BAR CENTRAAL KORTRIJK,-25.38,restaurants,normal,1393.83
+TX00222,lisa,"Lisa (23, starter)",2026-05-03,BASIC-FIT BE 8676,-11.99,subscriptions,normal,1381.84
+TX00223,lisa,"Lisa (23, starter)",2026-05-05,ORANGE BELGIUM DD 1707,-35.27,telecom,normal,1346.57
+TX00224,lisa,"Lisa (23, starter)",2026-05-05,PIZZA HUT KORTRIJK 1694,-18.61,restaurants,normal,1327.96
+TX00225,lisa,"Lisa (23, starter)",2026-05-10,COLRUYT KORTRIJK 4543,-19.94,groceries,normal,1308.02
+TX00226,lisa,"Lisa (23, starter)",2026-05-10,COLRUYT Kortrijk 2556,-29.98,groceries,normal,1278.04
+TX00227,lisa,"Lisa (23, starter)",2026-05-12,DELHAIZE Kortrijk #7249,-42.27,groceries,normal,1235.77
+TX00228,lisa,"Lisa (23, starter)",2026-05-14,NMBS/SNCB APP 6755,-15.84,transport,normal,1219.93
+TX00229,lisa,"Lisa (23, starter)",2026-05-15,CARREFOUR MARKET KORTRIJK 2452,-42.01,groceries,normal,1177.92
+TX00230,lisa,"Lisa (23, starter)",2026-05-21,BAR CENTRAAL Kortrijk,-33.94,restaurants,normal,1143.98
+TX00231,lisa,"Lisa (23, starter)",2026-05-21,DELHAIZE Kortrijk #4335,-40.24,groceries,normal,1103.74
+TX00232,lisa,"Lisa (23, starter)",2026-05-22,CAFE DEN OUDEN KORTRIJK,-34.97,restaurants,normal,1068.77
+TX00233,lisa,"Lisa (23, starter)",2026-05-24,NMBS/SNCB APP 1781,-9.12,transport,normal,1059.65
+TX00234,lisa,"Lisa (23, starter)",2026-05-24,STUDENTENJOB Colruyt 6064,419.9,student_job,normal,1479.55
+TX00235,lisa,"Lisa (23, starter)",2026-06-02,NMBS/SNCB APP 1203,-10.29,transport,normal,1469.26
+TX00236,lisa,"Lisa (23, starter)",2026-06-03,NETFLIX.COM 6538,-11.99,subscriptions,normal,1457.27
+TX00237,lisa,"Lisa (23, starter)",2026-06-04,ALDI BE 2051 Kortrijk,-49.67,groceries,normal,1407.6
+TX00238,lisa,"Lisa (23, starter)",2026-06-06,SHELL KORTRIJK 5501,-4.49,transport,normal,1403.11
+TX00239,lisa,"Lisa (23, starter)",2026-06-07,PROXIMUS NV/SA 4583,-28.21,telecom,normal,1374.9
+TX00240,lisa,"Lisa (23, starter)",2026-06-10,COLRUYT KORTRIJK 5149,-37.2,groceries,normal,1337.7
+TX00241,lisa,"Lisa (23, starter)",2026-06-11,CARREFOUR MARKET KORTRIJK 6602,-48.68,groceries,normal,1289.02
+TX00242,lisa,"Lisa (23, starter)",2026-06-14,CARREFOUR MARKET KORTRIJK 4289,-25.86,groceries,normal,1263.16
+TX00243,lisa,"Lisa (23, starter)",2026-06-14,PAYCONIQ*BRICO Kortrijk,-5.0,home_improvement,noise_not_moving,1258.16
+TX00244,lisa,"Lisa (23, starter)",2026-06-15,COLRUYT Kortrijk 3238,-34.03,groceries,normal,1224.13
+TX00245,lisa,"Lisa (23, starter)",2026-06-17,PIZZA HUT Kortrijk 3511,-23.34,restaurants,normal,1200.79
+TX00246,lisa,"Lisa (23, starter)",2026-06-18,COLRUYT KORTRIJK 4183,-19.95,groceries,normal,1180.84
+TX00247,lisa,"Lisa (23, starter)",2026-06-19,DELHAIZE KORTRIJK #6221,-47.8,groceries,normal,1133.04
+TX00248,lisa,"Lisa (23, starter)",2026-06-21,SHELL KORTRIJK 8109,-9.39,transport,normal,1123.65
+TX00249,lisa,"Lisa (23, starter)",2026-06-23,PIZZA HUT KORTRIJK 4988,-16.61,restaurants,normal,1107.04
+TX00250,lisa,"Lisa (23, starter)",2026-06-24,SALARY Acme NV,2137.97,salary,normal,3245.01
+TX00251,lisa,"Lisa (23, starter)",2026-06-25,NMBS/SNCB APP 3272,-5.36,transport,normal,3239.65
+TX00252,lisa,"Lisa (23, starter)",2026-07-01,DE LIJN MOBIB 6634,-14.59,transport,normal,3225.06
+TX00253,lisa,"Lisa (23, starter)",2026-07-01,RENT STUDIO KORTRIJK,-720.0,rent,moving,2505.06
+TX00254,lisa,"Lisa (23, starter)",2026-07-03,NETFLIX.COM 8496,-11.99,subscriptions,normal,2493.07
+TX00255,lisa,"Lisa (23, starter)",2026-07-05,BRICO KORTRIJK 9335,-165.27,home_improvement,moving,2327.8
+TX00256,lisa,"Lisa (23, starter)",2026-07-06,LUMINUS NV DOMICILIERING,-71.06,utilities,moving,2256.74
+TX00257,lisa,"Lisa (23, starter)",2026-07-08,JYSK GENT,-1304.52,furniture,moving,952.22
+TX00258,lisa,"Lisa (23, starter)",2026-07-08,TELENET NV DOMICILIERING,-29.48,telecom,normal,922.74
+TX00259,lisa,"Lisa (23, starter)",2026-07-09,ALDI BE 1330 KORTRIJK,-24.09,groceries,normal,898.65
+TX00260,lisa,"Lisa (23, starter)",2026-07-09,LIDL BELGIUM Kortrijk,-36.25,groceries,normal,862.4
+TX00261,lisa,"Lisa (23, starter)",2026-07-11,LEEN BAKKER Kortrijk 9808,-83.99,furniture,moving,778.41
+TX00262,lisa,"Lisa (23, starter)",2026-07-15,NMBS/SNCB APP 6465,-12.47,transport,normal,765.94
+TX00263,lisa,"Lisa (23, starter)",2026-07-15,PIZZA HUT Kortrijk 6875,-24.15,restaurants,normal,741.79
+TX00264,lisa,"Lisa (23, starter)",2026-07-18,LIDL BELGIUM Kortrijk,-49.4,groceries,normal,692.39
+TX00265,lisa,"Lisa (23, starter)",2026-07-18,SHELL Kortrijk 4481,-9.97,transport,normal,682.42
+TX00266,lisa,"Lisa (23, starter)",2026-07-21,BAR CENTRAAL KORTRIJK,-19.68,restaurants,normal,662.74
+TX00267,lisa,"Lisa (23, starter)",2026-07-22,NMBS/SNCB APP 7574,-5.91,transport,normal,656.83
+TX00268,lisa,"Lisa (23, starter)",2026-07-22,PAYCONIQ*FRITUUR Kortrijk,-22.31,restaurants,normal,634.52
+TX00269,lisa,"Lisa (23, starter)",2026-07-23,CARREFOUR MARKET Kortrijk 7261,-44.96,groceries,normal,589.56
+TX00270,lisa,"Lisa (23, starter)",2026-07-25,CARREFOUR MARKET KORTRIJK 7315,-57.48,groceries,normal,532.08
+TX00271,lisa,"Lisa (23, starter)",2026-07-25,LIDL BELGIUM Kortrijk,-51.7,groceries,normal,480.38
+TX00272,lisa,"Lisa (23, starter)",2026-07-25,OVERSCHRIJVING WEDDE Acme NV,2172.27,salary,normal,2652.65
+TX00273,lisa,"Lisa (23, starter)",2026-08-01,HUUR STUDIO KORTRIJK,-720.0,rent,moving,1932.65
+TX00274,lisa,"Lisa (23, starter)",2026-08-03,SPOTIFY P0518,-11.99,subscriptions,normal,1920.66
+TX00275,lisa,"Lisa (23, starter)",2026-08-04,CARREFOUR MARKET Kortrijk 6892,-54.18,groceries,normal,1866.48
+TX00276,lisa,"Lisa (23, starter)",2026-08-05,CARREFOUR MARKET Kortrijk 4208,-51.74,groceries,normal,1814.74
+TX00277,lisa,"Lisa (23, starter)",2026-08-06,ENGIE ELECTRABEL DD 8051,-76.55,utilities,moving,1738.19
+TX00278,lisa,"Lisa (23, starter)",2026-08-06,TELENET NV DOMICILIERING,-25.51,telecom,normal,1712.68
+TX00279,lisa,"Lisa (23, starter)",2026-08-07,ALDI BE 5121 KORTRIJK,-43.34,groceries,normal,1669.34
+TX00280,lisa,"Lisa (23, starter)",2026-08-07,CARREFOUR MARKET Kortrijk 1886,-52.22,groceries,normal,1617.12
+TX00281,lisa,"Lisa (23, starter)",2026-08-14,LIDL BELGIUM Kortrijk,-48.39,groceries,normal,1568.73
+TX00282,lisa,"Lisa (23, starter)",2026-08-15,NMBS/SNCB APP 6219,-8.38,transport,normal,1560.35
+TX00283,lisa,"Lisa (23, starter)",2026-08-16,DE LIJN MOBIB 4242,-8.45,transport,normal,1551.9
+TX00284,lisa,"Lisa (23, starter)",2026-08-17,PIZZA HUT Kortrijk 2516,-21.06,restaurants,normal,1530.84
+TX00285,lisa,"Lisa (23, starter)",2026-08-19,DE LIJN MOBIB 1429,-7.46,transport,normal,1523.38
+TX00286,lisa,"Lisa (23, starter)",2026-08-20,SHELL Kortrijk 8474,-18.17,transport,normal,1505.21
+TX00287,lisa,"Lisa (23, starter)",2026-08-22,DELHAIZE KORTRIJK #9847,-53.44,groceries,normal,1451.77
+TX00288,lisa,"Lisa (23, starter)",2026-08-24,SALARY Acme NV,2127.94,salary,normal,3579.71
+TX00289,lisa,"Lisa (23, starter)",2026-08-27,CARREFOUR MARKET Kortrijk 7028,-47.11,groceries,normal,3532.6
+TX00290,lisa,"Lisa (23, starter)",2026-08-27,PIZZA HUT Kortrijk 7931,-21.95,restaurants,normal,3510.65
+TX00291,lisa,"Lisa (23, starter)",2026-09-01,HUUR STUDIO Kortrijk,-720.0,rent,moving,2790.65
+TX00292,lisa,"Lisa (23, starter)",2026-09-02,NMBS/SNCB APP 7448,-4.14,transport,normal,2786.51
+TX00293,lisa,"Lisa (23, starter)",2026-09-03,DISNEYPLUS 6981,-11.99,subscriptions,normal,2774.52
+TX00294,lisa,"Lisa (23, starter)",2026-09-04,LIDL BELGIUM Kortrijk,-24.68,groceries,normal,2749.84
+TX00295,lisa,"Lisa (23, starter)",2026-09-05,DELHAIZE KORTRIJK #4962,-18.62,groceries,normal,2731.22
+TX00296,lisa,"Lisa (23, starter)",2026-09-06,LIDL BELGIUM KORTRIJK,-38.65,groceries,normal,2692.57
+TX00297,lisa,"Lisa (23, starter)",2026-09-06,WATER-LINK 1890,-79.25,utilities,moving,2613.32
+TX00298,lisa,"Lisa (23, starter)",2026-09-07,CAFE DEN OUDEN Kortrijk,-12.71,restaurants,normal,2600.61
+TX00299,lisa,"Lisa (23, starter)",2026-09-07,PROXIMUS NV/SA 4128,-26.77,telecom,normal,2573.84
+TX00300,lisa,"Lisa (23, starter)",2026-09-08,ALDI BE 3043 KORTRIJK,-26.43,groceries,normal,2547.41
+TX00301,lisa,"Lisa (23, starter)",2026-09-13,PAYCONIQ*FRITUUR Kortrijk,-26.19,restaurants,normal,2521.22
+TX00302,lisa,"Lisa (23, starter)",2026-09-16,ALDI BE 7837 KORTRIJK,-23.02,groceries,normal,2498.2
+TX00303,lisa,"Lisa (23, starter)",2026-09-18,NMBS/SNCB APP 9739,-10.52,transport,normal,2487.68
+TX00304,lisa,"Lisa (23, starter)",2026-09-19,DELHAIZE KORTRIJK #9076,-30.85,groceries,normal,2456.83
+TX00305,lisa,"Lisa (23, starter)",2026-09-22,BAR CENTRAAL KORTRIJK,-36.8,restaurants,normal,2420.03
+TX00306,lisa,"Lisa (23, starter)",2026-09-23,CAFE DEN OUDEN Kortrijk,-16.92,restaurants,normal,2403.11
+TX00307,lisa,"Lisa (23, starter)",2026-09-24,LOON ACME NV 3996,2134.5,salary,normal,4537.61
+TX00308,lisa,"Lisa (23, starter)",2026-09-25,LIDL BELGIUM KORTRIJK,-44.26,groceries,normal,4493.35
+TX00309,tom_sara,"Tom & Sara (31, young family)",2026-02-01,SEPA HUUR APPARTEMENT,-1050.0,rent,normal,17450.0
+TX00310,tom_sara,"Tom & Sara (31, young family)",2026-02-02,CARREFOUR MARKET Gent 8504,-87.56,groceries,normal,17362.44
+TX00311,tom_sara,"Tom & Sara (31, young family)",2026-02-02,TRANSFER TO SAVINGS 4567,-816.3,savings,normal,16546.14
+TX00312,tom_sara,"Tom & Sara (31, young family)",2026-02-04,ALDI BE 6632 GENT,-132.84,groceries,normal,16413.3
+TX00313,tom_sara,"Tom & Sara (31, young family)",2026-02-05,ORANGE BELGIUM DD 1504,-74.4,telecom,normal,16338.9
+TX00314,tom_sara,"Tom & Sara (31, young family)",2026-02-06,ALDI BE 1999 GENT,-57.6,groceries,normal,16281.3
+TX00315,tom_sara,"Tom & Sara (31, young family)",2026-02-07,CAFE DEN OUDEN Gent,-68.21,restaurants,normal,16213.09
+TX00316,tom_sara,"Tom & Sara (31, young family)",2026-02-10,CAFE DEN OUDEN Gent,-47.37,restaurants,normal,16165.72
+TX00317,tom_sara,"Tom & Sara (31, young family)",2026-02-12,ALDI BE 5413 Gent,-92.05,groceries,normal,16073.67
+TX00318,tom_sara,"Tom & Sara (31, young family)",2026-02-17,ALDI BE 9022 Gent,-58.3,groceries,normal,16015.37
+TX00319,tom_sara,"Tom & Sara (31, young family)",2026-02-17,BAR CENTRAAL Gent,-36.24,restaurants,normal,15979.13
+TX00320,tom_sara,"Tom & Sara (31, young family)",2026-02-17,PAYCONIQ*FRITUUR GENT,-54.3,restaurants,normal,15924.83
+TX00321,tom_sara,"Tom & Sara (31, young family)",2026-02-22,CARREFOUR MARKET Gent 5101,-104.58,groceries,normal,15820.25
+TX00322,tom_sara,"Tom & Sara (31, young family)",2026-02-25,SALARY Barco NV,3159.13,salary,normal,18979.38
+TX00323,tom_sara,"Tom & Sara (31, young family)",2026-02-26,LIDL BELGIUM Gent,-79.04,groceries,normal,18900.34
+TX00324,tom_sara,"Tom & Sara (31, young family)",2026-02-26,OVERSCHRIJVING WEDDE UZ Gent,2949.96,salary,normal,21850.3
+TX00325,tom_sara,"Tom & Sara (31, young family)",2026-03-01,RENT APPARTEMENT GENT,-1050.0,rent,normal,20800.3
+TX00326,tom_sara,"Tom & Sara (31, young family)",2026-03-02,TRANSFER TO SAVINGS 3100,-976.15,savings,normal,19824.15
+TX00327,tom_sara,"Tom & Sara (31, young family)",2026-03-03,DELHAIZE Gent #1654,-133.68,groceries,normal,19690.47
+TX00328,tom_sara,"Tom & Sara (31, young family)",2026-03-05,TELENET NV DOMICILIERING,-65.87,telecom,normal,19624.6
+TX00329,tom_sara,"Tom & Sara (31, young family)",2026-03-12,LIDL BELGIUM Gent,-76.13,groceries,normal,19548.47
+TX00330,tom_sara,"Tom & Sara (31, young family)",2026-03-13,PIZZA HUT GENT 8712,-51.49,restaurants,normal,19496.98
+TX00331,tom_sara,"Tom & Sara (31, young family)",2026-03-16,COLRUYT Gent 2371,-91.9,groceries,normal,19405.08
+TX00332,tom_sara,"Tom & Sara (31, young family)",2026-03-17,LIDL BELGIUM GENT,-99.58,groceries,normal,19305.5
+TX00333,tom_sara,"Tom & Sara (31, young family)",2026-03-22,DELHAIZE GENT #4352,-85.47,groceries,normal,19220.03
+TX00334,tom_sara,"Tom & Sara (31, young family)",2026-03-23,ALDI BE 7120 Gent,-143.05,groceries,normal,19076.98
+TX00335,tom_sara,"Tom & Sara (31, young family)",2026-03-24,LIDL BELGIUM Gent,-89.2,groceries,normal,18987.78
+TX00336,tom_sara,"Tom & Sara (31, young family)",2026-03-25,CAFE DEN OUDEN GENT,-63.32,restaurants,normal,18924.46
+TX00337,tom_sara,"Tom & Sara (31, young family)",2026-03-25,OVERSCHRIJVING WEDDE BARCO NV,3233.75,salary,normal,22158.21
+TX00338,tom_sara,"Tom & Sara (31, young family)",2026-03-26,COLRUYT GENT 0484,-59.14,groceries,normal,22099.07
+TX00339,tom_sara,"Tom & Sara (31, young family)",2026-03-26,OVERSCHRIJVING WEDDE UZ GENT,2894.65,salary,normal,24993.72
+TX00340,tom_sara,"Tom & Sara (31, young family)",2026-04-01,SEPA HUUR APPARTEMENT,-1050.0,rent,normal,23943.72
+TX00341,tom_sara,"Tom & Sara (31, young family)",2026-04-02,TRANSFER TO SAVINGS 4107,-871.37,savings,normal,23072.35
+TX00342,tom_sara,"Tom & Sara (31, young family)",2026-04-05,PROXIMUS NV/SA 7926,-67.13,telecom,normal,23005.22
+TX00343,tom_sara,"Tom & Sara (31, young family)",2026-04-06,CARREFOUR MARKET Gent 8231,-137.21,groceries,normal,22868.01
+TX00344,tom_sara,"Tom & Sara (31, young family)",2026-04-06,COLRUYT Gent 6817,-70.81,groceries,normal,22797.2
+TX00345,tom_sara,"Tom & Sara (31, young family)",2026-04-12,BAR CENTRAAL Gent,-73.84,restaurants,normal,22723.36
+TX00346,tom_sara,"Tom & Sara (31, young family)",2026-04-13,DELHAIZE Gent #2250,-111.54,groceries,normal,22611.82
+TX00347,tom_sara,"Tom & Sara (31, young family)",2026-04-18,PAYCONIQ*FRITUUR GENT,-83.13,restaurants,normal,22528.69
+TX00348,tom_sara,"Tom & Sara (31, young family)",2026-04-20,ALDI BE 4847 Gent,-56.97,groceries,normal,22471.72
+TX00349,tom_sara,"Tom & Sara (31, young family)",2026-04-22,COLRUYT GENT 9505,-87.84,groceries,normal,22383.88
+TX00350,tom_sara,"Tom & Sara (31, young family)",2026-04-23,LIDL BELGIUM GENT,-136.96,groceries,normal,22246.92
+TX00351,tom_sara,"Tom & Sara (31, young family)",2026-04-25,LIDL BELGIUM Gent,-109.64,groceries,normal,22137.28
+TX00352,tom_sara,"Tom & Sara (31, young family)",2026-04-25,LOON Barco NV 3814,3196.11,salary,normal,25333.39
+TX00353,tom_sara,"Tom & Sara (31, young family)",2026-04-26,SALARY UZ Gent,2940.12,salary,normal,28273.51
+TX00354,tom_sara,"Tom & Sara (31, young family)",2026-05-01,SEPA HUUR APPARTEMENT,-1050.0,rent,normal,27223.51
+TX00355,tom_sara,"Tom & Sara (31, young family)",2026-05-02,TRANSFER TO SAVINGS 9208,-845.6,savings,normal,26377.91
+TX00356,tom_sara,"Tom & Sara (31, young family)",2026-05-05,ORANGE BELGIUM DD 7616,-83.19,telecom,normal,26294.72
+TX00357,tom_sara,"Tom & Sara (31, young family)",2026-05-10,DELHAIZE Gent #7460,-63.25,groceries,normal,26231.47
+TX00358,tom_sara,"Tom & Sara (31, young family)",2026-05-10,PAYCONIQ*FRITUUR Gent,-40.31,restaurants,normal,26191.16
+TX00359,tom_sara,"Tom & Sara (31, young family)",2026-05-13,CARREFOUR MARKET GENT 2541,-134.69,groceries,normal,26056.47
+TX00360,tom_sara,"Tom & Sara (31, young family)",2026-05-13,DELHAIZE GENT #5952,-63.94,groceries,normal,25992.53
+TX00361,tom_sara,"Tom & Sara (31, young family)",2026-05-17,COLRUYT GENT 2232,-89.98,groceries,normal,25902.55
+TX00362,tom_sara,"Tom & Sara (31, young family)",2026-05-22,COLRUYT Gent 4593,-57.94,groceries,normal,25844.61
+TX00363,tom_sara,"Tom & Sara (31, young family)",2026-05-22,LIDL BELGIUM GENT,-82.39,groceries,normal,25762.22
+TX00364,tom_sara,"Tom & Sara (31, young family)",2026-05-23,ALDI BE 5886 Gent,-60.45,groceries,normal,25701.77
+TX00365,tom_sara,"Tom & Sara (31, young family)",2026-05-24,PAYCONIQ*FRITUUR GENT,-72.86,restaurants,normal,25628.91
+TX00366,tom_sara,"Tom & Sara (31, young family)",2026-05-25,OVERSCHRIJVING WEDDE Barco NV,3176.45,salary,normal,28805.36
+TX00367,tom_sara,"Tom & Sara (31, young family)",2026-05-26,LOON UZ Gent 4305,2908.46,salary,normal,31713.82
+TX00368,tom_sara,"Tom & Sara (31, young family)",2026-06-01,HUUR APPARTEMENT GENT,-1050.0,rent,normal,30663.82
+TX00369,tom_sara,"Tom & Sara (31, young family)",2026-06-02,TRANSFER TO SAVINGS 2086,-928.34,savings,normal,29735.48
+TX00370,tom_sara,"Tom & Sara (31, young family)",2026-06-04,ALDI BE 4515 Gent,-111.19,groceries,normal,29624.29
+TX00371,tom_sara,"Tom & Sara (31, young family)",2026-06-05,ORANGE BELGIUM DD 7354,-80.56,telecom,normal,29543.73
+TX00372,tom_sara,"Tom & Sara (31, young family)",2026-06-06,PAYCONIQ*FRITUUR GENT,-74.27,restaurants,normal,29469.46
+TX00373,tom_sara,"Tom & Sara (31, young family)",2026-06-09,KRUIDVAT BABY Gent 9431,-598.71,baby,new_parent,28870.75
+TX00374,tom_sara,"Tom & Sara (31, young family)",2026-06-13,DREAMBABY GENT 1892,-69.09,baby,new_parent,28801.66
+TX00375,tom_sara,"Tom & Sara (31, young family)",2026-06-15,ALDI BE 1567 Gent,-83.13,groceries,normal,28718.53
+TX00376,tom_sara,"Tom & Sara (31, young family)",2026-06-15,BABY-DUMP GENT,-62.0,baby,new_parent,28656.53
+TX00377,tom_sara,"Tom & Sara (31, young family)",2026-06-16,CARREFOUR MARKET Gent 1884,-131.75,groceries,normal,28524.78
+TX00378,tom_sara,"Tom & Sara (31, young family)",2026-06-17,KRUIDVAT BABY Gent 0852,-82.88,baby,new_parent,28441.9
+TX00379,tom_sara,"Tom & Sara (31, young family)",2026-06-17,LIDL BELGIUM GENT,-61.61,groceries,normal,28380.29
+TX00380,tom_sara,"Tom & Sara (31, young family)",2026-06-20,CARREFOUR MARKET Gent 9797,-102.75,groceries,normal,28277.54
+TX00381,tom_sara,"Tom & Sara (31, young family)",2026-06-20,COLRUYT Gent 0720,-120.45,groceries,normal,28157.09
+TX00382,tom_sara,"Tom & Sara (31, young family)",2026-06-21,PAYCONIQ*FRITUUR Gent,-66.19,restaurants,normal,28090.9
+TX00383,tom_sara,"Tom & Sara (31, young family)",2026-06-22,CARREFOUR MARKET Gent 7408,-134.93,groceries,normal,27955.97
+TX00384,tom_sara,"Tom & Sara (31, young family)",2026-06-23,CARREFOUR MARKET GENT 0520,-60.47,groceries,normal,27895.5
+TX00385,tom_sara,"Tom & Sara (31, young family)",2026-06-25,LOON BARCO NV 9774,3150.28,salary,normal,31045.78
+TX00386,tom_sara,"Tom & Sara (31, young family)",2026-06-25,PIZZA HUT GENT 7780,-31.83,restaurants,normal,31013.95
+TX00387,tom_sara,"Tom & Sara (31, young family)",2026-06-26,LOON UZ Gent 2868,2860.99,salary,normal,33874.94
+TX00388,tom_sara,"Tom & Sara (31, young family)",2026-07-01,SEPA HUUR APPARTEMENT,-1050.0,rent,normal,32824.94
+TX00389,tom_sara,"Tom & Sara (31, young family)",2026-07-02,TRANSFER TO SAVINGS 5577,-850.2,savings,normal,31974.74
+TX00390,tom_sara,"Tom & Sara (31, young family)",2026-07-03,DELHAIZE GENT #1346,-79.49,groceries,normal,31895.25
+TX00391,tom_sara,"Tom & Sara (31, young family)",2026-07-05,COLRUYT Gent 2126,-89.22,groceries,normal,31806.03
+TX00392,tom_sara,"Tom & Sara (31, young family)",2026-07-05,TELENET NV DOMICILIERING,-66.39,telecom,normal,31739.64
+TX00393,tom_sara,"Tom & Sara (31, young family)",2026-07-08,ALDI BE 4196 Gent,-81.05,groceries,normal,31658.59
+TX00394,tom_sara,"Tom & Sara (31, young family)",2026-07-11,PIZZA HUT GENT 0703,-52.86,restaurants,normal,31605.73
+TX00395,tom_sara,"Tom & Sara (31, young family)",2026-07-12,DELHAIZE GENT #9309,-108.66,groceries,normal,31497.07
+TX00396,tom_sara,"Tom & Sara (31, young family)",2026-07-13,BABY-DUMP Gent,-76.33,baby,new_parent,31420.74
+TX00397,tom_sara,"Tom & Sara (31, young family)",2026-07-16,DREAMBABY GENT 8373,-60.43,baby,new_parent,31360.31
+TX00398,tom_sara,"Tom & Sara (31, young family)",2026-07-18,COLRUYT GENT 9727,-98.8,groceries,normal,31261.51
+TX00399,tom_sara,"Tom & Sara (31, young family)",2026-07-18,PAYCONIQ*FRITUUR Gent,-51.05,restaurants,normal,31210.46
+TX00400,tom_sara,"Tom & Sara (31, young family)",2026-07-20,GROEIPAKKET FONS 2429,173.2,child_benefit,new_parent,31383.66
+TX00401,tom_sara,"Tom & Sara (31, young family)",2026-07-22,COLRUYT GENT 6173,-92.78,groceries,normal,31290.88
+TX00402,tom_sara,"Tom & Sara (31, young family)",2026-07-23,ALDI BE 9829 GENT,-59.93,groceries,normal,31230.95
+TX00403,tom_sara,"Tom & Sara (31, young family)",2026-07-23,BAR CENTRAAL Gent,-52.89,restaurants,normal,31178.06
+TX00404,tom_sara,"Tom & Sara (31, young family)",2026-07-23,LIDL BELGIUM Gent,-74.4,groceries,normal,31103.66
+TX00405,tom_sara,"Tom & Sara (31, young family)",2026-07-24,BAR CENTRAAL GENT,-37.8,restaurants,normal,31065.86
+TX00406,tom_sara,"Tom & Sara (31, young family)",2026-07-25,OVERSCHRIJVING WEDDE BARCO NV,3247.45,salary,normal,34313.31
+TX00407,tom_sara,"Tom & Sara (31, young family)",2026-07-26,OVERSCHRIJVING WEDDE UZ Gent,2910.9,salary,normal,37224.21
+TX00408,tom_sara,"Tom & Sara (31, young family)",2026-08-01,SEPA HUUR APPARTEMENT,-1050.0,rent,normal,36174.21
+TX00409,tom_sara,"Tom & Sara (31, young family)",2026-08-02,TRANSFER TO SAVINGS 2483,-867.95,savings,normal,35306.26
+TX00410,tom_sara,"Tom & Sara (31, young family)",2026-08-03,LIDL BELGIUM GENT,-143.41,groceries,normal,35162.85
+TX00411,tom_sara,"Tom & Sara (31, young family)",2026-08-04,CARREFOUR MARKET Gent 7182,-144.19,groceries,normal,35018.66
+TX00412,tom_sara,"Tom & Sara (31, young family)",2026-08-05,PROXIMUS NV/SA 4510,-76.83,telecom,normal,34941.83
+TX00413,tom_sara,"Tom & Sara (31, young family)",2026-08-11,COLRUYT Gent 1489,-110.35,groceries,normal,34831.48
+TX00414,tom_sara,"Tom & Sara (31, young family)",2026-08-14,PAYCONIQ*FRITUUR Gent,-45.68,restaurants,normal,34785.8
+TX00415,tom_sara,"Tom & Sara (31, young family)",2026-08-16,BABY-DUMP GENT,-23.17,baby,new_parent,34762.63
+TX00416,tom_sara,"Tom & Sara (31, young family)",2026-08-16,DREAMBABY Gent 8634,-24.26,baby,new_parent,34738.37
+TX00417,tom_sara,"Tom & Sara (31, young family)",2026-08-18,CARREFOUR MARKET Gent 4644,-89.87,groceries,normal,34648.5
+TX00418,tom_sara,"Tom & Sara (31, young family)",2026-08-18,COLRUYT GENT 0942,-88.19,groceries,normal,34560.31
+TX00419,tom_sara,"Tom & Sara (31, young family)",2026-08-18,DREAMBABY Gent 5082,-55.45,baby,new_parent,34504.86
+TX00420,tom_sara,"Tom & Sara (31, young family)",2026-08-18,LIDL BELGIUM Gent,-95.48,groceries,normal,34409.38
+TX00421,tom_sara,"Tom & Sara (31, young family)",2026-08-19,KRUIDVAT BABY GENT 2963,-81.73,baby,new_parent,34327.65
+TX00422,tom_sara,"Tom & Sara (31, young family)",2026-08-20,GROEIPAKKET FONS 8636,173.2,child_benefit,new_parent,34500.85
+TX00423,tom_sara,"Tom & Sara (31, young family)",2026-08-21,BAR CENTRAAL GENT,-77.78,restaurants,normal,34423.07
+TX00424,tom_sara,"Tom & Sara (31, young family)",2026-08-25,LOON BARCO NV 2852,3210.24,salary,normal,37633.31
+TX00425,tom_sara,"Tom & Sara (31, young family)",2026-08-25,PAYCONIQ*FRITUUR Gent,-46.79,restaurants,normal,37586.52
+TX00426,tom_sara,"Tom & Sara (31, young family)",2026-08-26,OVERSCHRIJVING WEDDE UZ Gent,2896.4,salary,normal,40482.92
+TX00427,tom_sara,"Tom & Sara (31, young family)",2026-08-27,CARREFOUR MARKET Gent 7802,-100.12,groceries,normal,40382.8
+TX00428,tom_sara,"Tom & Sara (31, young family)",2026-09-01,HUUR APPARTEMENT GENT,-1050.0,rent,normal,39332.8
+TX00429,tom_sara,"Tom & Sara (31, young family)",2026-09-02,TRANSFER TO SAVINGS 7365,-826.8,savings,normal,38506.0
+TX00430,tom_sara,"Tom & Sara (31, young family)",2026-09-05,CARREFOUR MARKET Gent 2636,-79.55,groceries,normal,38426.45
+TX00431,tom_sara,"Tom & Sara (31, young family)",2026-09-05,TELENET NV DOMICILIERING,-83.08,telecom,normal,38343.37
+TX00432,tom_sara,"Tom & Sara (31, young family)",2026-09-06,ALDI BE 6091 GENT,-104.91,groceries,normal,38238.46
+TX00433,tom_sara,"Tom & Sara (31, young family)",2026-09-08,PAYCONIQ*FRITUUR GENT,-71.25,restaurants,normal,38167.21
+TX00434,tom_sara,"Tom & Sara (31, young family)",2026-09-10,KRUIDVAT BABY Gent 6944,-25.45,baby,new_parent,38141.76
+TX00435,tom_sara,"Tom & Sara (31, young family)",2026-09-13,CARREFOUR MARKET Gent 4626,-125.03,groceries,normal,38016.73
+TX00436,tom_sara,"Tom & Sara (31, young family)",2026-09-13,COLRUYT GENT 6136,-76.22,groceries,normal,37940.51
+TX00437,tom_sara,"Tom & Sara (31, young family)",2026-09-15,CAFE DEN OUDEN GENT,-73.11,restaurants,normal,37867.4
+TX00438,tom_sara,"Tom & Sara (31, young family)",2026-09-15,DREAMBABY GENT 6888,-60.81,baby,new_parent,37806.59
+TX00439,tom_sara,"Tom & Sara (31, young family)",2026-09-18,CARREFOUR MARKET GENT 3281,-127.11,groceries,normal,37679.48
+TX00440,tom_sara,"Tom & Sara (31, young family)",2026-09-18,DELHAIZE Gent #3647,-128.5,groceries,normal,37550.98
+TX00441,tom_sara,"Tom & Sara (31, young family)",2026-09-20,KINDERBIJSLAG GROEIPAKKET,173.2,child_benefit,new_parent,37724.18
+TX00442,tom_sara,"Tom & Sara (31, young family)",2026-09-20,KRUIDVAT BABY GENT 4203,-32.45,baby,new_parent,37691.73
+TX00443,tom_sara,"Tom & Sara (31, young family)",2026-09-25,LOON Barco NV 2157,3209.72,salary,normal,40901.45
+TX00444,tom_sara,"Tom & Sara (31, young family)",2026-09-26,LOON UZ Gent 2722,2922.12,salary,normal,43823.57

@@ -1,0 +1,13 @@
+# Python environment and cache
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/secrets.toml
+
+# editor / OS files
+.vscode/
+.idea/
+.DS_Store

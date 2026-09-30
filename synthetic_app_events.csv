@@ -1,0 +1,9 @@
+event_id,customer_id,persona,date,event,story_tag
+EV0001,ahmed,"Ahmed (27, spending pressure)",2026-08-21,viewed_balance_5x_in_one_day,spending_pressure
+EV0002,ahmed,"Ahmed (27, spending pressure)",2026-09-24,viewed_balance_5x_in_one_day,spending_pressure
+EV0003,lisa,"Lisa (23, starter)",2026-07-10,viewed_home_insurance_page,moving
+EV0004,tom_sara,"Tom & Sara (31, young family)",2026-08-03,viewed_mortgage_page,house_hunting
+EV0005,tom_sara,"Tom & Sara (31, young family)",2026-08-11,viewed_mortgage_page,house_hunting
+EV0006,tom_sara,"Tom & Sara (31, young family)",2026-08-19,viewed_mortgage_page,house_hunting
+EV0007,tom_sara,"Tom & Sara (31, young family)",2026-09-02,viewed_mortgage_page,house_hunting
+EV0008,tom_sara,"Tom & Sara (31, young family)",2026-09-09,viewed_mortgage_page,house_hunting
